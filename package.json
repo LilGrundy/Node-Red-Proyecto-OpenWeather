@@ -1,0 +1,12 @@
+{
+    "name": "Dashboard_con_API_OpenWeather",
+    "description": "Proyecto de practica sobre un dasboard con api ",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "DashboardAPI.json",
+            "credentialsFile": "DashboardAPI_cred.json"
+        }
+    }
+}
