@@ -1,1 +1,1397 @@
-[]
+[
+    {
+        "id": "875f24d02cb79d5a",
+        "type": "tab",
+        "label": "OpenWeather ",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "58a082407b52ce60",
+        "type": "group",
+        "z": "875f24d02cb79d5a",
+        "name": "Llamada de API",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#b797cf",
+            "label": true,
+            "color": "#000000",
+            "label-position": "sw"
+        },
+        "nodes": [
+            "1907690b65fda719",
+            "818384b0bad25241",
+            "186f53e603fa8077",
+            "56f6d1992d11cdea",
+            "11c9a022a2ca0fd3",
+            "1e9c59b69b737b6a",
+            "76ac280c310d76e2",
+            "a6c9d66137f7a029",
+            "8036576280d8b237",
+            "e5786e5965eb9ae4",
+            "55ba6e9d29dcdaee",
+            "814067940a12f375"
+        ],
+        "x": 34,
+        "y": 19,
+        "w": 1152,
+        "h": 170
+    },
+    {
+        "id": "961bce07244aca9d",
+        "type": "group",
+        "z": "875f24d02cb79d5a",
+        "name": "Dashboard Favoritos",
+        "style": {
+            "stroke": "#3f3f3f",
+            "fill": "#b797cf",
+            "label": true,
+            "label-position": "sw",
+            "color": "#3f3f3f"
+        },
+        "nodes": [
+            "7809898299a7a900",
+            "6167bfba237b16ef",
+            "c77fc9c1a5f55230",
+            "bb6c4c9f4b52310f",
+            "fe3b359f185cbad1",
+            "136f418e9a38ab56",
+            "fd274e0b55eb41e2"
+        ],
+        "x": 34,
+        "y": 219,
+        "w": 282,
+        "h": 290
+    },
+    {
+        "id": "f1ac994bd6b032e4",
+        "type": "group",
+        "z": "875f24d02cb79d5a",
+        "name": "Dashboard Informacion y Localizaciones",
+        "style": {
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#b797cf",
+            "color": "#000000",
+            "label-position": "sw"
+        },
+        "nodes": [
+            "6c4c085a6a104c90",
+            "155b29901294e1dd",
+            "608abdc08d432224",
+            "476fde74e86089bb",
+            "74b423fc88050728",
+            "41797c6484a066c6",
+            "e246fc1a929a98b6",
+            "a16cc92d71706e81",
+            "0e6eafee7f124c3b",
+            "a8086ba42fc3fb53",
+            "cd1e5c040836f282",
+            "c9ee1b6cf4353a3c",
+            "c26850012752ee12",
+            "c937ad7fba97427a",
+            "1c291cbb7c666c3c",
+            "e2801e63f82c022c",
+            "32913686c95923a1",
+            "55a774a2827a05c0",
+            "6c06cf0653502904",
+            "d5875690a8d626b9",
+            "4f8d63178ffcb090",
+            "d0ca1f019109fd48",
+            "996f7b0b9540f6f8",
+            "17fa6ea5ec910450"
+        ],
+        "x": 394,
+        "y": 219,
+        "w": 762,
+        "h": 490
+    },
+    {
+        "id": "b3fc2fa9d227aad1",
+        "type": "group",
+        "z": "875f24d02cb79d5a",
+        "name": "Otros",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#b797cf",
+            "label": true,
+            "color": "#000000",
+            "label-position": "sw"
+        },
+        "nodes": [
+            "0759422236917adc",
+            "6bbf2374a02ee1cd",
+            "3865761dd2e21b7b",
+            "7becdb9cbc53c0d4",
+            "bc3a87198cce5d32",
+            "a86b68b01301f18f"
+        ],
+        "x": 34,
+        "y": 539,
+        "w": 302,
+        "h": 170
+    },
+    {
+        "id": "851d6ed41aee17dd",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#8500cc",
+                "baseFont": "Georgia,Georgia,serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#756ab0",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#746ab0",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#756ab0",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#756ab0",
+                    "edited": true
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": true
+                },
+                "group-textColor": {
+                    "value": "#a39cca",
+                    "edited": true
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": true
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": true
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": true
+                },
+                "widget-backgroundColor": {
+                    "value": "#756ab0",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": true
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "669799eb818610fb",
+        "type": "ui_tab",
+        "name": "OpenWeatherMap",
+        "icon": "wi-owm-03d",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "79f8c1a71d3c0bfc",
+        "type": "ui_group",
+        "name": "Datos de Consulta",
+        "tab": "669799eb818610fb",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "92e6ee1bdb8dadb8",
+        "type": "ui_group",
+        "name": "Localizaciones",
+        "tab": "669799eb818610fb",
+        "order": 2,
+        "disp": true,
+        "width": 12,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "f0e1c8e8f4d182db",
+        "type": "ui_group",
+        "name": "Informacion",
+        "tab": "669799eb818610fb",
+        "order": 3,
+        "disp": true,
+        "width": 6,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "1907690b65fda719",
+        "type": "ui_text",
+        "z": "875f24d02cb79d5a",
+        "g": "58a082407b52ce60",
+        "group": "79f8c1a71d3c0bfc",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "name": "Especifico",
+        "label": "",
+        "format": "Especifico",
+        "layout": "col-center",
+        "className": "",
+        "x": 150,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "818384b0bad25241",
+        "type": "ui_form",
+        "z": "875f24d02cb79d5a",
+        "g": "58a082407b52ce60",
+        "name": "Consultar Ciudad",
+        "label": "Consultar Ciudad o Pais:",
+        "group": "79f8c1a71d3c0bfc",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "options": [
+            {
+                "label": "Ciudad",
+                "value": "ciudad",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "ciudad": ""
+        },
+        "payload": "",
+        "submit": "Consultar",
+        "cancel": "Cancelar",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 150,
+        "y": 120,
+        "wires": [
+            [
+                "56f6d1992d11cdea",
+                "814067940a12f375"
+            ]
+        ]
+    },
+    {
+        "id": "186f53e603fa8077",
+        "type": "http request",
+        "z": "875f24d02cb79d5a",
+        "g": "58a082407b52ce60",
+        "name": "Geocoding API",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 420,
+        "y": 140,
+        "wires": [
+            [
+                "11c9a022a2ca0fd3"
+            ]
+        ]
+    },
+    {
+        "id": "56f6d1992d11cdea",
+        "type": "template",
+        "z": "875f24d02cb79d5a",
+        "g": "58a082407b52ce60",
+        "name": "",
+        "field": "url",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "http://api.openweathermap.org/geo/1.0/direct?q={{payload.ciudad}}&appid=e1844d61b3f68c9a6a62ceae37ddcdf8\n",
+        "output": "str",
+        "x": 305,
+        "y": 140,
+        "wires": [
+            [
+                "186f53e603fa8077"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "11c9a022a2ca0fd3",
+        "type": "change",
+        "z": "875f24d02cb79d5a",
+        "g": "58a082407b52ce60",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "latitud",
+                "pt": "msg",
+                "to": "payload[0].lat",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "longitud",
+                "pt": "msg",
+                "to": "payload[0].lon",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 600,
+        "y": 140,
+        "wires": [
+            [
+                "1e9c59b69b737b6a"
+            ]
+        ]
+    },
+    {
+        "id": "1e9c59b69b737b6a",
+        "type": "template",
+        "z": "875f24d02cb79d5a",
+        "g": "58a082407b52ce60",
+        "name": "",
+        "field": "url",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "https://api.openweathermap.org/data/2.5/weather?lat={{latitud}}&lon={{longitud}}&units=metric&lang=es&appid=e1844d61b3f68c9a6a62ceae37ddcdf8\n",
+        "output": "str",
+        "x": 715,
+        "y": 140,
+        "wires": [
+            [
+                "76ac280c310d76e2"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "76ac280c310d76e2",
+        "type": "http request",
+        "z": "875f24d02cb79d5a",
+        "g": "58a082407b52ce60",
+        "name": "Current Weather API",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 860,
+        "y": 140,
+        "wires": [
+            [
+                "a6c9d66137f7a029",
+                "e5786e5965eb9ae4"
+            ]
+        ]
+    },
+    {
+        "id": "6c4c085a6a104c90",
+        "type": "link in",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "name": "link in 1",
+        "links": [
+            "a6c9d66137f7a029"
+        ],
+        "x": 435,
+        "y": 380,
+        "wires": [
+            [
+                "41797c6484a066c6",
+                "e246fc1a929a98b6",
+                "a16cc92d71706e81",
+                "cd1e5c040836f282",
+                "c9ee1b6cf4353a3c",
+                "c26850012752ee12",
+                "c937ad7fba97427a",
+                "1c291cbb7c666c3c",
+                "e2801e63f82c022c",
+                "32913686c95923a1",
+                "55a774a2827a05c0"
+            ]
+        ]
+    },
+    {
+        "id": "a6c9d66137f7a029",
+        "type": "link out",
+        "z": "875f24d02cb79d5a",
+        "g": "58a082407b52ce60",
+        "name": "link out 1",
+        "mode": "link",
+        "links": [
+            "6c4c085a6a104c90",
+            "d5875690a8d626b9",
+            "e8b15c967c06928d",
+            "ba05dc046d8915b5"
+        ],
+        "x": 1005,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "7809898299a7a900",
+        "type": "ui_text",
+        "z": "875f24d02cb79d5a",
+        "g": "961bce07244aca9d",
+        "group": "79f8c1a71d3c0bfc",
+        "order": 3,
+        "width": 6,
+        "height": 1,
+        "name": "Favoritos",
+        "label": "",
+        "format": "Favoritos",
+        "layout": "col-center",
+        "className": "",
+        "x": 120,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "6167bfba237b16ef",
+        "type": "ui_button",
+        "z": "875f24d02cb79d5a",
+        "g": "961bce07244aca9d",
+        "name": "",
+        "group": "79f8c1a71d3c0bfc",
+        "order": 4,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "Cogua",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "star",
+        "payload": "{\"ciudad\":\"Cogua\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 300,
+        "wires": [
+            [
+                "fd274e0b55eb41e2"
+            ]
+        ]
+    },
+    {
+        "id": "e5786e5965eb9ae4",
+        "type": "debug",
+        "z": "875f24d02cb79d5a",
+        "g": "58a082407b52ce60",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "c77fc9c1a5f55230",
+        "type": "ui_button",
+        "z": "875f24d02cb79d5a",
+        "g": "961bce07244aca9d",
+        "name": "",
+        "group": "79f8c1a71d3c0bfc",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Bogota",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"ciudad\":\"Bogota\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 120,
+        "y": 340,
+        "wires": [
+            [
+                "fd274e0b55eb41e2"
+            ]
+        ]
+    },
+    {
+        "id": "bb6c4c9f4b52310f",
+        "type": "ui_button",
+        "z": "875f24d02cb79d5a",
+        "g": "961bce07244aca9d",
+        "name": "",
+        "group": "79f8c1a71d3c0bfc",
+        "order": 5,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "Medellin",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"ciudad\":\"Medellin\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 120,
+        "y": 380,
+        "wires": [
+            [
+                "fd274e0b55eb41e2"
+            ]
+        ]
+    },
+    {
+        "id": "fe3b359f185cbad1",
+        "type": "ui_button",
+        "z": "875f24d02cb79d5a",
+        "g": "961bce07244aca9d",
+        "name": "",
+        "group": "79f8c1a71d3c0bfc",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Barranquilla",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"ciudad\":\"Barranquilla\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 420,
+        "wires": [
+            [
+                "fd274e0b55eb41e2"
+            ]
+        ]
+    },
+    {
+        "id": "136f418e9a38ab56",
+        "type": "ui_button",
+        "z": "875f24d02cb79d5a",
+        "g": "961bce07244aca9d",
+        "name": "",
+        "group": "79f8c1a71d3c0bfc",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Ottawa",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"ciudad\":\"Ottawa\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 120,
+        "y": 460,
+        "wires": [
+            [
+                "fd274e0b55eb41e2"
+            ]
+        ]
+    },
+    {
+        "id": "fd274e0b55eb41e2",
+        "type": "link out",
+        "z": "875f24d02cb79d5a",
+        "g": "961bce07244aca9d",
+        "name": "link out 2",
+        "mode": "link",
+        "links": [
+            "8036576280d8b237"
+        ],
+        "x": 275,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "8036576280d8b237",
+        "type": "link in",
+        "z": "875f24d02cb79d5a",
+        "g": "58a082407b52ce60",
+        "name": "link in 2",
+        "links": [
+            "fd274e0b55eb41e2",
+            "7becdb9cbc53c0d4"
+        ],
+        "x": 305,
+        "y": 100,
+        "wires": [
+            [
+                "56f6d1992d11cdea",
+                "814067940a12f375"
+            ]
+        ]
+    },
+    {
+        "id": "155b29901294e1dd",
+        "type": "ui_text",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "group": "f0e1c8e8f4d182db",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "Localización",
+        "label": "",
+        "format": "Localizacion",
+        "layout": "col-center",
+        "className": "",
+        "x": 980,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "608abdc08d432224",
+        "type": "ui_text",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "group": "f0e1c8e8f4d182db",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Coordenadas",
+        "label": "",
+        "format": "Coordenadas",
+        "layout": "col-center",
+        "className": "",
+        "x": 990,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "476fde74e86089bb",
+        "type": "ui_text",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "group": "f0e1c8e8f4d182db",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "Temperatura",
+        "label": "",
+        "format": "Temperatura",
+        "layout": "col-center",
+        "className": "",
+        "x": 980,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "74b423fc88050728",
+        "type": "ui_text",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "group": "f0e1c8e8f4d182db",
+        "order": 10,
+        "width": 6,
+        "height": 1,
+        "name": "Mas Información",
+        "label": "",
+        "format": "Mas Informacion",
+        "layout": "col-center",
+        "className": "",
+        "x": 990,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "55ba6e9d29dcdaee",
+        "type": "ui_text",
+        "z": "875f24d02cb79d5a",
+        "g": "58a082407b52ce60",
+        "group": "f0e1c8e8f4d182db",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "name": "Ciudad",
+        "label": "Ciudad:",
+        "format": "{{msg.payload.ciudad}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 460,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "41797c6484a066c6",
+        "type": "ui_text",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "group": "f0e1c8e8f4d182db",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "name": "Pais",
+        "label": "Pais:",
+        "format": "{{msg.payload.sys.country}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 650,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "e246fc1a929a98b6",
+        "type": "ui_text",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "group": "f0e1c8e8f4d182db",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "name": "Latitud",
+        "label": "Latitud:",
+        "format": "{{msg.payload.coord.lat}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 650,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "a16cc92d71706e81",
+        "type": "ui_text",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "group": "f0e1c8e8f4d182db",
+        "order": 6,
+        "width": 3,
+        "height": 1,
+        "name": "Longitud",
+        "label": "Longitud:",
+        "format": "{{msg.payload.coord.lon}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 640,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "0e6eafee7f124c3b",
+        "type": "ui_text",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "group": "f0e1c8e8f4d182db",
+        "order": 8,
+        "width": 3,
+        "height": 1,
+        "name": "Máxima",
+        "label": "Máxima:",
+        "format": "{{msg.payload}}  ºC",
+        "layout": "row-center",
+        "className": "",
+        "x": 640,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "a8086ba42fc3fb53",
+        "type": "ui_text",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "group": "f0e1c8e8f4d182db",
+        "order": 9,
+        "width": 3,
+        "height": 1,
+        "name": "Mínima",
+        "label": "Mínima:",
+        "format": "{{msg.payload}}  ºC",
+        "layout": "row-center",
+        "className": "",
+        "x": 640,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "cd1e5c040836f282",
+        "type": "change",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload.main.temp_max)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 545,
+        "y": 380,
+        "wires": [
+            [
+                "0e6eafee7f124c3b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c9ee1b6cf4353a3c",
+        "type": "change",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload.main.temp_min)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 545,
+        "y": 420,
+        "wires": [
+            [
+                "a8086ba42fc3fb53"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c26850012752ee12",
+        "type": "ui_text",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "group": "f0e1c8e8f4d182db",
+        "order": 11,
+        "width": 3,
+        "height": 1,
+        "name": "Cielo",
+        "label": "",
+        "format": "{{msg.payload.weather[0].description}}  ",
+        "layout": "row-center",
+        "className": "",
+        "x": 630,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "c937ad7fba97427a",
+        "type": "ui_text",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "group": "f0e1c8e8f4d182db",
+        "order": 13,
+        "width": 3,
+        "height": 1,
+        "name": "Vel. Viento",
+        "label": "Vel. Viento:",
+        "format": "{{msg.payload.wind.speed}}  ",
+        "layout": "row-center",
+        "className": "",
+        "x": 650,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "1c291cbb7c666c3c",
+        "type": "ui_text",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "group": "f0e1c8e8f4d182db",
+        "order": 14,
+        "width": 3,
+        "height": 1,
+        "name": "Humedad",
+        "label": "Humedad:",
+        "format": "{{msg.payload.main.humidity}}  ",
+        "layout": "row-center",
+        "className": "",
+        "x": 640,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "e2801e63f82c022c",
+        "type": "ui_gauge",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "name": "Direccion:",
+        "group": "f0e1c8e8f4d182db",
+        "order": 12,
+        "width": 3,
+        "height": 3,
+        "gtype": "compass",
+        "title": "Direccion:",
+        "label": "Grados",
+        "format": "{{payload.wind.deg}}",
+        "min": 0,
+        "max": "360",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 640,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "32913686c95923a1",
+        "type": "ui_text",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "group": "f0e1c8e8f4d182db",
+        "order": 15,
+        "width": 3,
+        "height": 1,
+        "name": "Amanecer",
+        "label": "Amanecer:",
+        "format": "{{msg.payload.sys.sunrise*1000 | date:\"HH:mm\"}}  ",
+        "layout": "row-center",
+        "className": "",
+        "x": 650,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "55a774a2827a05c0",
+        "type": "ui_text",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "group": "f0e1c8e8f4d182db",
+        "order": 16,
+        "width": 3,
+        "height": 1,
+        "name": "Atardecer:",
+        "label": "Atardecer:",
+        "format": "{{msg.payload.sys.sunset*1000 | date:\"HH:mm\"}}  ",
+        "layout": "row-center",
+        "className": "",
+        "x": 650,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "6c06cf0653502904",
+        "type": "ui_worldmap",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "group": "92e6ee1bdb8dadb8",
+        "order": 1,
+        "width": 12,
+        "height": 12,
+        "name": "",
+        "lat": "",
+        "lon": "",
+        "zoom": "",
+        "layer": "OSMC",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "hide",
+        "layers": "show",
+        "panit": "true",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "true",
+        "coords": "none",
+        "showgrid": "false",
+        "showruler": "false",
+        "allowFileDrop": "false",
+        "path": "/worldmap",
+        "overlist": "DR,CO,RA,DN,HM",
+        "maplist": "OSMG,OSMC,OSMH,EsriC,EsriS,EsriT,EsriO,EsriDG,NatGeo,UKOS,OpTop,HB",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 1070,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "d5875690a8d626b9",
+        "type": "link in",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "name": "link in 3",
+        "links": [
+            "a6c9d66137f7a029"
+        ],
+        "x": 805,
+        "y": 320,
+        "wires": [
+            [
+                "d0ca1f019109fd48"
+            ]
+        ]
+    },
+    {
+        "id": "4f8d63178ffcb090",
+        "type": "template",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{\"name\":\"{{flow.ciudad}}\", \"lat\":\"{{latitud}}\", \"lon\":\"{{longitud}}\", \"temp_max\":\"{{flow.maxima}}\", \"temp_min\":\"{{flow.minima}}\", \"icon\":\"wi-own-{{payload}}\",\"layer\":\"ciudades\"}",
+        "output": "json",
+        "x": 955,
+        "y": 320,
+        "wires": [
+            [
+                "6c06cf0653502904"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "814067940a12f375",
+        "type": "change",
+        "z": "875f24d02cb79d5a",
+        "g": "58a082407b52ce60",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ciudad",
+                "pt": "flow",
+                "to": "payload.ciudad",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 315,
+        "y": 60,
+        "wires": [
+            [
+                "55ba6e9d29dcdaee"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d0ca1f019109fd48",
+        "type": "change",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "maxima",
+                "pt": "flow",
+                "to": "$round(payload.main.temp_max)",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "minima",
+                "pt": "flow",
+                "to": "$round(payload.main.temp_min)",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.weather[0].icon",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 885,
+        "y": 320,
+        "wires": [
+            [
+                "4f8d63178ffcb090"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "996f7b0b9540f6f8",
+        "type": "ui_text",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "group": "79f8c1a71d3c0bfc",
+        "order": 9,
+        "width": 6,
+        "height": 1,
+        "name": "Acciones",
+        "label": "",
+        "format": "Acciones",
+        "layout": "col-center",
+        "className": "",
+        "x": 970,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "0759422236917adc",
+        "type": "ui_button",
+        "z": "875f24d02cb79d5a",
+        "g": "b3fc2fa9d227aad1",
+        "name": "",
+        "group": "79f8c1a71d3c0bfc",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Limpiar",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 140,
+        "y": 620,
+        "wires": [
+            [
+                "6bbf2374a02ee1cd"
+            ]
+        ]
+    },
+    {
+        "id": "6bbf2374a02ee1cd",
+        "type": "change",
+        "z": "875f24d02cb79d5a",
+        "g": "b3fc2fa9d227aad1",
+        "name": "",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.command.clear",
+                "pt": "msg",
+                "to": "ciudades",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 245,
+        "y": 620,
+        "wires": [
+            [
+                "a86b68b01301f18f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3865761dd2e21b7b",
+        "type": "inject",
+        "z": "875f24d02cb79d5a",
+        "g": "b3fc2fa9d227aad1",
+        "name": "Preset",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"ciudad\":\"Bogota\"}",
+        "payloadType": "json",
+        "x": 130,
+        "y": 580,
+        "wires": [
+            [
+                "7becdb9cbc53c0d4"
+            ]
+        ]
+    },
+    {
+        "id": "7becdb9cbc53c0d4",
+        "type": "link out",
+        "z": "875f24d02cb79d5a",
+        "g": "b3fc2fa9d227aad1",
+        "name": "link out 3",
+        "mode": "link",
+        "links": [
+            "8036576280d8b237"
+        ],
+        "x": 295,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "bc3a87198cce5d32",
+        "type": "ui_template",
+        "z": "875f24d02cb79d5a",
+        "g": "b3fc2fa9d227aad1",
+        "group": "f0e1c8e8f4d182db",
+        "name": "",
+        "order": 17,
+        "width": 6,
+        "height": 1,
+        "format": "<style>\n        .nr-dashboard-text{\n        border-width: 3px;\n        border-color: #746AB0;\n        border-style: solid;\n        border-radius: 15px;\n        padding: 1rem;\n        }\n\n        .nr-dashboard-button{\n        \n        \n        align-self: center;\n        background-color: #fff;\n        background-image: none;\n        background-position: 0 90%;\n        background-repeat: repeat no-repeat;\n        background-size: 4px 3px;\n        border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;\n        border-style: solid;\n        border-width: 2px;\n        box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;\n        box-sizing: border-box;\n        color: #41403e;\n        cursor: pointer;\n        display: inline-block;\n        font-family: Neucha, sans-serif;\n        font-size: 1rem;\n        line-height: 23px;\n        outline: none;\n        padding: .45rem;\n        text-decoration: none;\n        transition: all 235ms ease-in-out;\n        border-bottom-left-radius: 15px 255px;\n        border-bottom-right-radius: 225px 15px;\n        border-top-left-radius: 255px 15px;\n        border-top-right-radius: 15px 225px;\n        user-select: none;\n        -webkit-user-select: none;\n        touch-action: manipulation;\n        }\n        \n        .nr-dashboard-button:hover {\n        box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;\n        transform: translate3d(0, 2px, 0);\n        }\n        \n        .nr-dashboard-button:focus {\n        box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;\n        }\n        }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 140,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a86b68b01301f18f",
+        "type": "link out",
+        "z": "875f24d02cb79d5a",
+        "g": "b3fc2fa9d227aad1",
+        "name": "link out 4",
+        "mode": "link",
+        "links": [
+            "17fa6ea5ec910450",
+            "297d18a968378939"
+        ],
+        "x": 295,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "17fa6ea5ec910450",
+        "type": "link in",
+        "z": "875f24d02cb79d5a",
+        "g": "f1ac994bd6b032e4",
+        "name": "link in 4",
+        "links": [
+            "a86b68b01301f18f"
+        ],
+        "x": 955,
+        "y": 360,
+        "wires": [
+            [
+                "6c06cf0653502904"
+            ]
+        ]
+    }
+]
