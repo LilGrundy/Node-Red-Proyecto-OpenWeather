@@ -102,7 +102,7 @@
             "996f7b0b9540f6f8",
             "17fa6ea5ec910450"
         ],
-        "x": 394,
+        "x": 424,
         "y": 219,
         "w": 762,
         "h": 490
@@ -467,7 +467,7 @@
         "links": [
             "a6c9d66137f7a029"
         ],
-        "x": 435,
+        "x": 465,
         "y": 380,
         "wires": [
             [
@@ -730,7 +730,7 @@
         "format": "Localizacion",
         "layout": "col-center",
         "className": "",
-        "x": 980,
+        "x": 1010,
         "y": 460,
         "wires": []
     },
@@ -748,7 +748,7 @@
         "format": "Coordenadas",
         "layout": "col-center",
         "className": "",
-        "x": 990,
+        "x": 1020,
         "y": 500,
         "wires": []
     },
@@ -766,7 +766,7 @@
         "format": "Temperatura",
         "layout": "col-center",
         "className": "",
-        "x": 980,
+        "x": 1010,
         "y": 540,
         "wires": []
     },
@@ -784,7 +784,7 @@
         "format": "Mas Informacion",
         "layout": "col-center",
         "className": "",
-        "x": 990,
+        "x": 1020,
         "y": 580,
         "wires": []
     },
@@ -820,7 +820,7 @@
         "format": "{{msg.payload.sys.country}}",
         "layout": "row-center",
         "className": "",
-        "x": 650,
+        "x": 680,
         "y": 260,
         "wires": []
     },
@@ -838,7 +838,7 @@
         "format": "{{msg.payload.coord.lat}}",
         "layout": "row-center",
         "className": "",
-        "x": 650,
+        "x": 680,
         "y": 300,
         "wires": []
     },
@@ -856,7 +856,7 @@
         "format": "{{msg.payload.coord.lon}}",
         "layout": "row-center",
         "className": "",
-        "x": 640,
+        "x": 670,
         "y": 340,
         "wires": []
     },
@@ -874,7 +874,7 @@
         "format": "{{msg.payload}}  ºC",
         "layout": "row-center",
         "className": "",
-        "x": 640,
+        "x": 670,
         "y": 380,
         "wires": []
     },
@@ -892,7 +892,7 @@
         "format": "{{msg.payload}}  ºC",
         "layout": "row-center",
         "className": "",
-        "x": 640,
+        "x": 670,
         "y": 420,
         "wires": []
     },
@@ -916,7 +916,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 545,
+        "x": 575,
         "y": 380,
         "wires": [
             [
@@ -945,7 +945,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 545,
+        "x": 575,
         "y": 420,
         "wires": [
             [
@@ -968,7 +968,7 @@
         "format": "{{msg.payload.weather[0].description}}  ",
         "layout": "row-center",
         "className": "",
-        "x": 630,
+        "x": 660,
         "y": 460,
         "wires": []
     },
@@ -986,7 +986,7 @@
         "format": "{{msg.payload.wind.speed}}  ",
         "layout": "row-center",
         "className": "",
-        "x": 650,
+        "x": 680,
         "y": 500,
         "wires": []
     },
@@ -1004,7 +1004,7 @@
         "format": "{{msg.payload.main.humidity}}  ",
         "layout": "row-center",
         "className": "",
-        "x": 640,
+        "x": 670,
         "y": 540,
         "wires": []
     },
@@ -1032,7 +1032,7 @@
         "seg1": "",
         "seg2": "",
         "className": "",
-        "x": 640,
+        "x": 670,
         "y": 580,
         "wires": []
     },
@@ -1050,7 +1050,7 @@
         "format": "{{msg.payload.sys.sunrise*1000 | date:\"HH:mm\"}}  ",
         "layout": "row-center",
         "className": "",
-        "x": 650,
+        "x": 680,
         "y": 620,
         "wires": []
     },
@@ -1068,7 +1068,7 @@
         "format": "{{msg.payload.sys.sunset*1000 | date:\"HH:mm\"}}  ",
         "layout": "row-center",
         "className": "",
-        "x": 650,
+        "x": 680,
         "y": 660,
         "wires": []
     },
@@ -1105,7 +1105,7 @@
         "mapurl": "",
         "mapopt": "",
         "mapwms": false,
-        "x": 1070,
+        "x": 1100,
         "y": 320,
         "wires": []
     },
@@ -1118,7 +1118,7 @@
         "links": [
             "a6c9d66137f7a029"
         ],
-        "x": 805,
+        "x": 835,
         "y": 320,
         "wires": [
             [
@@ -1138,7 +1138,7 @@
         "syntax": "mustache",
         "template": "{\"name\":\"{{flow.ciudad}}\", \"lat\":\"{{latitud}}\", \"lon\":\"{{longitud}}\", \"temp_max\":\"{{flow.maxima}}\", \"temp_min\":\"{{flow.minima}}\", \"icon\":\"wi-own-{{payload}}\",\"layer\":\"ciudades\"}",
         "output": "json",
-        "x": 955,
+        "x": 985,
         "y": 320,
         "wires": [
             [
@@ -1210,7 +1210,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 885,
+        "x": 915,
         "y": 320,
         "wires": [
             [
@@ -1233,7 +1233,7 @@
         "format": "Acciones",
         "layout": "col-center",
         "className": "",
-        "x": 970,
+        "x": 1000,
         "y": 620,
         "wires": []
     },
@@ -1386,7 +1386,7 @@
         "links": [
             "a86b68b01301f18f"
         ],
-        "x": 955,
+        "x": 985,
         "y": 360,
         "wires": [
             [
